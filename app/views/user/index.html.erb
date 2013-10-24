@@ -1,0 +1,15 @@
+<%= link_to "Add new User", user_new_path %>
+</br></br></br>
+<% unless @user_list.nil? %>
+  <table  border="1">
+  <tr>
+    <td>Name</td>
+    <td>Email</td>
+  </tr>
+  <% for user in @user_list do %>  
+	<tr>
+      <td><%= "#{user.userName}" %></td>
+      <td><%= "#{user.email}" %></td>
+    </tr>
+  <% end %>  
+<% end %>	

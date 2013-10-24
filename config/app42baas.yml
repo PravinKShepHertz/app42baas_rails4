@@ -1,0 +1,6 @@
+development: 
+  api_key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
+  secret_key: "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy" 
+production: 
+  api_key: "your api key" 
+  secret_key: "your secret key" 
